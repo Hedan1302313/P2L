@@ -1,14 +1,5 @@
-{
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+"Datos":{
+    "15":{"int": {"min": 0, "max": 255}},
+    "12":{"int": {"min": 0, "max": 255}},
+    "13":{"int": {"min": 0, "max": 255}}
 }
